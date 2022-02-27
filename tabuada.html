@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Tabuada</title>
+    <link rel="stylesheet" href="tabuada.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="./calculator.png" alt="Icone de uma calculadora">
+            <h1>App Tabuada</h1>
+            <p><label for="denominador">Informe um valor:</label></p>
+            <input type="number" name="denominador" id="denominador" onchange="calcular()">
+            <p><input type="button" id="btn" value="Gerar Tabuada" onclick="calcular()"></p>
+        </div>
+        <hr>
+        <div id="tabuada" class="tabuada"> </div>
+    </div>
+    <footer>
+        <p>App Desenvolvidor por: <a href="https://www.instagram.com/muriloo_carvalhoo/">Murilo Carvalho</a> com HTML, CSS & JAVASCRIPT</p>
+    </footer>
+    <script src="tabuada.js"></script>
+</body>
+</html>
